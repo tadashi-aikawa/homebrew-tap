@@ -7,7 +7,7 @@ cask "jinrai" do
   desc "思考の速度で素早くウィンドウ操作を行う macOS 用ツール"
   homepage "https://github.com/tadashi-aikawa/jinrai"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "JINRAI.app"
 
