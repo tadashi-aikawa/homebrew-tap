@@ -1,6 +1,6 @@
 cask "jinrai" do
-  version "0.6.0"
-  sha256 "a75a543e404cd53d166e2f791f4edd966163ea88a44630e7e2d7150f58cbc6cd"
+  version "0.7.0"
+  sha256 "389dc2ff9f74d7726e19ef9784e446c33c6e2f992a60cc6e14f3fdd2e05e6efd"
 
   url "https://github.com/tadashi-aikawa/jinrai/releases/download/v#{version}/JINRAI-#{version}.zip"
   name "JINRAI"
