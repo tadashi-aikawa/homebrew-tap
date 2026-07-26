@@ -1,6 +1,6 @@
 cask "kokukoku" do
-  version "0.19.0"
-  sha256 "cbe52b1bbfaf4e671844e158a9a36349d6515d522413c3ce473ac0be68476555"
+  version "0.20.0"
+  sha256 "797529e941370b84fe7615b479a57f47050213b982248c1acc8e8f6285415b35"
 
   url "https://github.com/tadashi-aikawa/kokukoku/releases/download/v#{version}/KOKUKOKU-#{version}.zip"
   name "KOKUKOKU"
