@@ -12,11 +12,9 @@ cask "jinrai" do
   app "JINRAI.app"
 
   # 自己署名(未公証)のため quarantine を外さないと Gatekeeper にブロックされる。
-  # 公式 tap では禁止されている手法だが、自前 tap なので postflight で除去する。
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/JINRAI.app"],
-                   sudo: false
+  # 公式 tap では禁止されている手法だが、自前 tap なので postflight_steps で除去する。
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/JINRAI.app"]
   end
 
   caveats <<~EOS
