@@ -1,6 +1,6 @@
 cask "utsushie" do
-  version "0.10.0"
-  sha256 "6b6c4a6ad007840f135f027e5507022a0bed2dfb17f4e1a1a7118050cc97050e"
+  version "0.11.0"
+  sha256 "297ef5ab8b4c5ed024d9174db9779e4969325a0d3be921921423be8454dd936b"
 
   url "https://github.com/tadashi-aikawa/utsushie/releases/download/v#{version}/UTSUSHIE-#{version}.zip"
   name "UTSUSHIE"
