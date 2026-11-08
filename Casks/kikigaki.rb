@@ -1,6 +1,6 @@
 cask "kikigaki" do
-  version "0.20.2"
-  sha256 "acb9dd0074f2e20c51eadbd3806d95b67e942ca201dba1033fdb04e2cc72ad12"
+  version "0.21.0"
+  sha256 "55603a9513944096584126729b812c6429fea9c802ab586aa639f18daab841d6"
 
   url "https://github.com/tadashi-aikawa/kikigaki/releases/download/v#{version}/KIKIGAKI-#{version}.zip"
   name "KIKIGAKI"
